@@ -1,0 +1,62 @@
+/* General reset */
+body, h1, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e2f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container Styling */
+.container {
+    background-color: #282846;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    width: 350px;
+}
+
+/* Heading Styling */
+#main-heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #f39c12;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #f39c12;
+    padding-bottom: 10px;
+}
+
+/* List Styling */
+ul {
+    list-style: none;
+}
+
+.listi-items {
+    font-size: 18px;
+    padding: 10px 0;
+    margin: 10px 0;
+    background-color: #f39c12;
+    color: #1e1e2f;
+    border-radius: 8px;
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
+
+/* Hover effect for list items */
+.listi-items:hover {
+    transform: translateY(-5px);
+    background-color: #e67e22;
+}
+
